@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The IT portfolio of Umar Hussain — cloud, full-stack development, cybersecurity, professional experience and technical projects."
+    />
+    <meta name="theme-color" content="#0a1324" />
+    <title>Umar Hussain | IT Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Umar Hussain, home">
+        <span class="brand-mark" aria-hidden="true">UH</span>
+        <span class="brand-copy">
+          <strong>Umar Hussain</strong>
+          <small>IT portfolio</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Projects</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a class="nav-cta" href="#contact">Let's connect</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-label="Developer and cybersecurity portfolio banner">
+        <div class="hero-grid shell">
+          <div class="hero-side hero-side-left reveal">
+            <p class="eyebrow">Build · test · improve</p>
+            <h2>developer</h2>
+            <p>
+              Building full-stack applications, serverless AWS infrastructure and practical digital
+              experiences.
+            </p>
+          </div>
+
+          <div class="hero-portrait reveal" data-delay="1">
+            <div class="portrait-code" aria-hidden="true">
+              <span>const next = "secure systems";</span>
+              <span>terraform apply</span>
+              <span>analyse(packet.capture)</span>
+            </div>
+            <div class="portrait-frame">
+              <img
+                src="assets/images/umar-split-portrait.webp"
+                alt="Umar Hussain portrayed half realistically and half as a painted illustration"
+                width="1672"
+                height="942"
+              />
+            </div>
+            <span class="portrait-ring portrait-ring-one" aria-hidden="true"></span>
+            <span class="portrait-ring portrait-ring-two" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero-side hero-side-right reveal" data-delay="2">
+            <p class="eyebrow">Investigate · protect · learn</p>
+            <h2>&lt;cybersecurity/&gt;</h2>
+            <p>
+              Developing defensive security and network-analysis skills with a focus on careful,
+              evidence-led problem solving.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section projects" id="work" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="projects-heading reveal">
+            <span aria-hidden="true"></span>
+            <div>
+              <h2 id="projects-title">Some of my latest work</h2>
+            </div>
+            <span aria-hidden="true"></span>
+          </div>
+
+          <div class="project-grid">
+            <button class="project-card project-card-encon reveal" type="button" data-project="encon">
+              <img src="assets/images/encon-care-logo.webp" alt="Encon Pharma logo" loading="lazy" />
+              <span class="project-shade" aria-hidden="true"></span>
+              <span class="project-meta">AWS · Terraform · Full stack</span>
+              <span class="project-title">Cold-Chain Operations Portal</span>
+              <span class="project-action">View case study <span aria-hidden="true">↗</span></span>
+            </button>
+
+            <button class="project-card project-card-groot reveal" type="button" data-project="groot" data-delay="1">
+              <img
+                src="assets/images/groot-event-poster.webp"
+                alt="Bradford Agentic AI Hackathon event poster"
+                loading="lazy"
+              />
+              <span class="project-shade" aria-hidden="true"></span>
+              <span class="award-chip">Award winner</span>
+              <span class="project-meta">Agentic AI · ElevenLabs · Team project</span>
+              <span class="project-title">Groot AI Interview Platform</span>
+              <span class="project-action">View case study <span aria-hidden="true">↗</span></span>
+            </button>
+
+            <button class="project-card project-card-webhub reveal" type="button" data-project="webhub">
+              <img src="assets/images/webhub-homepage.webp" alt="The WebHub website homepage" loading="lazy" />
+              <span class="project-shade" aria-hidden="true"></span>
+              <span class="project-meta">HTML · CSS · JavaScript · PHP</span>
+              <span class="project-title">WebHub — My First Website</span>
+              <span class="project-action">View case study <span aria-hidden="true">↗</span></span>
+            </button>
+
+            <button class="project-card project-card-malware reveal" type="button" data-project="malware" data-delay="1">
+              <img
+                src="assets/images/malware-analysis-cover.webp"
+                alt="Illustrated network traffic analysis dashboard"
+                loading="lazy"
+              />
+              <span class="project-shade" aria-hidden="true"></span>
+              <span class="status-chip">In progress</span>
+              <span class="project-meta">Wireshark · PCAP · Network forensics</span>
+              <span class="project-title">Malware Traffic Analysis Lab</span>
+              <span class="project-action">View project plan <span aria-hidden="true">↗</span></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hero-introduction" aria-labelledby="hero-title">
+        <div class="hero-intro shell reveal" data-delay="2">
+          <div>
+            <p class="eyebrow">Umar Hussain · United Kingdom</p>
+            <h1 id="hero-title">Recent IT graduate turning curiosity into working technology.</h1>
+          </div>
+          <div class="hero-intro-copy">
+            <p>
+              I combine hands-on cloud and development experience with a growing focus on
+              cybersecurity. I am seeking opportunities to keep developing through IT and
+              cybersecurity roles, internships and degree apprenticeships.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="#work">Explore my work</a>
+              <a class="button button-ghost" href="mailto:uhussain22445@gmail.com">Email me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="Portfolio highlights">
+        <div class="shell signal-grid">
+          <div><strong>6 weeks</strong><span>Professional IT internship</span></div>
+          <div><strong>120+</strong><span>People at hackathon pitch</span></div>
+          <div><strong>Award winner</strong><span>Best Use of ElevenLabs</span></div>
+          <div><strong>£1,600+</strong><span>Raised for Ghana</span></div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-label="About Umar Hussain">
+        <div class="shell about-layout">
+          <div class="about-label reveal">
+            <p class="eyebrow">02 · About</p>
+          </div>
+          <div class="about-copy reveal" data-delay="1">
+            <p class="lead">
+              My journey began with a hand-coded college website. It has since grown into full-stack
+              development, AWS cloud infrastructure, Infrastructure as Code and an award-winning AI
+              hackathon project.
+            </p>
+            <p>
+              I am a disciplined and motivated recent graduate with strong analytical and organisational
+              skills. I enjoy breaking down unfamiliar problems, communicating what I have learned and
+              turning ideas into practical, testable solutions.
+            </p>
+            <div class="journey" aria-label="Learning journey">
+              <div><span>01</span><strong>First website</strong><small>HTML · CSS · JavaScript · PHP</small></div>
+              <div><span>02</span><strong>Cloud internship</strong><small>AWS · Terraform · Next.js</small></div>
+              <div><span>03</span><strong>Cybersecurity focus</strong><small>Security foundations · Network analysis</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience" aria-labelledby="experience-title">
+        <div class="shell experience-layout">
+          <div class="section-heading experience-heading reveal">
+            <p class="eyebrow">03 · Experience</p>
+            <h2 id="experience-title">Professional settings, real responsibilities.</h2>
+            <p>
+              I have worked across software engineering, e-commerce operations and corporate technology
+              environments.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Aug–Sep 2026</div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="role-type">Six-week internship</p>
+                <h3>IT Intern · Encon Pharma</h3>
+                <p>
+                  Built and deployed a serverless cold-chain portal, worked within Agile ceremonies and
+                  progressed into Encon's development environment under the mentorship of the Head of
+                  Software Engineering and the wider team.
+                </p>
+                <div class="tag-row"><span>AWS</span><span>Terraform</span><span>Next.js</span><span>Agile</span></div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Jun 2023–Present</div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="role-type">Part-time</p>
+                <h3>IT Management &amp; E-commerce Assistant · Mirfield Automotive Spares</h3>
+                <p>
+                  Manage the company's eBay store and product listings, monitor sales and stock, support
+                  customer service and assist with maintaining accurate website content.
+                </p>
+                <div class="tag-row"><span>E-commerce</span><span>Stock control</span><span>Customer service</span></div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Aug 2025</div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="role-type">Technology shadowing</p>
+                <h3>Barclays Technology Centre · Radbroke</h3>
+                <p>
+                  Shadowed technology professionals in a large corporate environment and received guidance
+                  from senior staff including a Digital Platform Director and Solutions Architect.
+                </p>
+                <div class="tag-row"><span>Corporate IT</span><span>Communication</span><span>Project awareness</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section toolkit" aria-labelledby="toolkit-title">
+        <div class="shell">
+          <div class="section-heading split-heading light-heading reveal">
+            <div>
+              <p class="eyebrow">04 · Toolkit</p>
+              <h2 id="toolkit-title">Technologies I have worked with.</h2>
+            </div>
+            <p>Practical experience across the stack, with the strongest recent focus on AWS, Terraform and modern web development.</p>
+          </div>
+
+          <div class="tech-showcase reveal" data-delay="1">
+            <div class="tech-rail" aria-label="Interactive technology toolkit">
+              <button class="tech-badge" type="button" data-tech="AWS" data-description="Cloud &amp; AWS — Serverless cloud services, infrastructure and application deployment.">
+                <span class="tech-symbol tech-aws" aria-hidden="true">aws</span><span class="tech-label">AWS</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Terraform" data-description="Infrastructure &amp; delivery — Infrastructure as Code, modules, remote state and repeatable AWS deployments.">
+                <span class="tech-symbol tech-terraform" aria-hidden="true"><i></i><i></i><i></i></span><span class="tech-label">Terraform</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="JavaScript" data-description="Development — AWS Lambda functions, backend logic and browser-based interactivity.">
+                <span class="tech-symbol tech-square tech-js" aria-hidden="true">JS</span><span class="tech-label">JavaScript</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="TypeScript" data-description="Development — Typed frontend development for reliable Next.js applications.">
+                <span class="tech-symbol tech-square tech-ts" aria-hidden="true">TS</span><span class="tech-label">TypeScript</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Node.js" data-description="Development — Server-side JavaScript for Lambda functions, APIs and automated tests.">
+                <span class="tech-symbol tech-node" aria-hidden="true">N</span><span class="tech-label">Node.js</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Next.js" data-description="Development — Full-stack React applications using the App Router and server-side features.">
+                <span class="tech-symbol tech-next" aria-hidden="true">N</span><span class="tech-label">Next.js</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="React" data-description="Development — Reusable, component-based interfaces and state-driven user experiences.">
+                <span class="tech-symbol tech-react" aria-hidden="true"><i></i><i></i><i></i><b></b></span><span class="tech-label">React</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Tailwind CSS" data-description="Development — Responsive utility-first styling for modern web interfaces.">
+                <span class="tech-symbol tech-tailwind" aria-hidden="true">≈</span><span class="tech-label">Tailwind CSS</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Postman" data-description="Testing &amp; security — REST API testing, validation failures and HTTP response verification.">
+                <span class="tech-symbol tech-postman" aria-hidden="true">↗</span><span class="tech-label">Postman</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Git" data-description="Infrastructure &amp; delivery — Branching, commits, pull requests, reviews, merges and conflict resolution.">
+                <span class="tech-symbol tech-git" aria-hidden="true">⑂</span><span class="tech-label">Git</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="Python" data-description="Development — Programming foundations, problem solving and automation practice.">
+                <span class="tech-symbol tech-python" aria-hidden="true">Py</span><span class="tech-label">Python</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="HTML5" data-description="Development — Semantic structure for accessible, multi-page websites.">
+                <span class="tech-symbol tech-shield tech-html" aria-hidden="true">5</span><span class="tech-label">HTML5</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="CSS3" data-description="Development — Responsive layouts, visual design and interface animation.">
+                <span class="tech-symbol tech-shield tech-css" aria-hidden="true">3</span><span class="tech-label">CSS3</span>
+              </button>
+              <button class="tech-badge" type="button" data-tech="PHP" data-description="Development — Server-side form handling in my first multi-page website project.">
+                <span class="tech-symbol tech-php" aria-hidden="true">php</span><span class="tech-label">PHP</span>
+              </button>
+            </div>
+            <div class="tech-readout" aria-live="polite">
+              <strong data-tech-title>Explore the toolkit</strong>
+              <span data-tech-description>Hover, focus or select an icon to see how I have used it.</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section credentials" id="credentials" aria-labelledby="credentials-title">
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">05 · Education &amp; credentials</p>
+              <h2 id="credentials-title">A technical foundation I keep building on.</h2>
+            </div>
+            <p>Formal IT education supported by focused study in cloud computing, Python and cybersecurity.</p>
+          </div>
+
+          <div class="credential-grid">
+            <div class="education-stack">
+              <article class="education-card reveal">
+                <span class="credential-index">Further education</span>
+                <h3>BTEC Level 3 National Extended Diploma in Information Technology</h3>
+                <p>Huddersfield New College · D*D*D*</p>
+                <div class="education-art" aria-hidden="true"><span>IT</span><i></i><i></i><i></i></div>
+              </article>
+
+              <article class="gcse-card reveal">
+                <div class="gcse-heading">
+                  <span class="credential-index">GCSEs</span>
+                  <div>
+                    <h3>Huddersfield Grammar School</h3>
+                    <p>GCSE results</p>
+                  </div>
+                </div>
+                <ul class="gcse-results" aria-label="GCSE subjects and grades">
+                  <li><span>Combined Science</span><strong>8–8</strong></li>
+                  <li><span>History</span><strong>6</strong></li>
+                  <li><span>Business</span><strong>6</strong></li>
+                  <li><span>Fine Art</span><strong>6</strong></li>
+                  <li><span>Mathematics</span><strong>5</strong></li>
+                  <li><span>Computer Science</span><strong>5</strong></li>
+                  <li><span>English Language &amp; Literature</span><strong>4</strong></li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="certificate-list">
+              <a
+                class="certificate reveal"
+                href="https://www.coursera.org/account/accomplishments/verify/T9E6WB1G275Q"
+                target="_blank"
+                rel="noopener"
+                aria-label="View Foundations of Cybersecurity credential"
+              >
+                <img
+                  class="certificate-preview"
+                  src="assets/images/certificate-foundations.webp"
+                  alt="Foundations of Cybersecurity certificate preview"
+                  loading="lazy"
+                />
+                <div><h3>Foundations of Cybersecurity</h3><p>Google · Coursera</p></div>
+                <i aria-hidden="true">↗</i>
+              </a>
+              <a
+                class="certificate reveal"
+                href="https://www.coursera.org/account/accomplishments/records/5B4VAQDLAF7Q"
+                target="_blank"
+                rel="noopener"
+                aria-label="View AWS Cloud Technical Essentials credential"
+              >
+                <img
+                  class="certificate-preview"
+                  src="assets/images/certificate-aws.webp"
+                  alt="AWS Cloud Technical Essentials certificate preview"
+                  loading="lazy"
+                />
+                <div><h3>AWS Cloud Technical Essentials</h3><p>Amazon Web Services · Coursera</p></div>
+                <i aria-hidden="true">↗</i>
+              </a>
+              <a
+                class="certificate reveal"
+                href="https://www.coursera.org/account/accomplishments/records/IK1IPC1FNI2P"
+                target="_blank"
+                rel="noopener"
+                aria-label="View Crash Course on Python credential"
+              >
+                <img
+                  class="certificate-preview"
+                  src="assets/images/certificate-crash-python.webp"
+                  alt="Crash Course on Python certificate preview"
+                  loading="lazy"
+                />
+                <div><h3>Crash Course on Python</h3><p>Google · Coursera</p></div>
+                <i aria-hidden="true">↗</i>
+              </a>
+              <a
+                class="certificate reveal"
+                href="https://www.coursera.org/account/accomplishments/records/JI38Q30DAQRB"
+                target="_blank"
+                rel="noopener"
+                aria-label="View Programming for Everybody credential"
+              >
+                <img
+                  class="certificate-preview"
+                  src="assets/images/certificate-python-everybody.webp"
+                  alt="Programming for Everybody certificate preview"
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Programming for Everybody (Getting Started with Python)</h3>
+                  <p>University of Michigan · Coursera</p>
+                </div>
+                <i aria-hidden="true">↗</i>
+              </a>
+              <article class="certificate licence-card reveal">
+                <span class="licence-preview" aria-hidden="true"><span class="licence-crown"></span></span>
+                <div>
+                  <h3>Full UK Driving Licence</h3>
+                  <p>Driver and Vehicle Licensing Agency (DVLA)</p>
+                  <small>Issued June 2026 · Expires June 2036</small>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section beyond" aria-labelledby="beyond-title">
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">06 · Beyond the screen</p>
+              <h2 id="beyond-title">Discipline, challenge and giving back.</h2>
+            </div>
+            <p>Experiences outside technology have shaped how I communicate, persist and work with others.</p>
+          </div>
+
+          <div class="beyond-grid">
+            <article class="beyond-card charity reveal">
+              <div class="beyond-number">£1.6K+</div>
+              <h3>Two peaks for two poultry farms</h3>
+              <p>
+                My brother and I climbed Scafell Pike and Ben Nevis, raising more than £1,600 through One
+                Nation UK to support two poultry farms in Ghana.
+              </p>
+              <div class="peak-line" aria-hidden="true"></div>
+            </article>
+            <article class="beyond-card sport reveal" data-delay="1">
+              <div class="beyond-number">1st Dan</div>
+              <h3>Martial arts &amp; Muay Thai</h3>
+              <p>
+                Years of training and competition have strengthened my discipline, resilience, composure
+                under pressure and commitment to continuous improvement.
+              </p>
+              <div class="sport-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-layout">
+          <div class="reveal">
+            <p class="eyebrow">07 · Contact</p>
+            <h2 id="contact-title">Let’s build what comes next.</h2>
+            <p>
+              I am open to IT and cybersecurity roles, internships, degree apprenticeships and conversations
+              with people working across technology.
+            </p>
+          </div>
+          <div class="contact-actions reveal" data-delay="1">
+            <a class="contact-link" href="mailto:uhussain22445@gmail.com">
+              <span>Email</span><strong>uhussain22445@gmail.com</strong><i aria-hidden="true">↗</i>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/umar-hussain-750221375" target="_blank" rel="noopener">
+              <span>LinkedIn</span><strong>Connect with me</strong><i aria-hidden="true">↗</i>
+            </a>
+            <a class="contact-link" href="https://github.com/Umarhuss2234" target="_blank" rel="noopener">
+              <span>GitHub</span><strong>Explore my code</strong><i aria-hidden="true">↗</i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <a class="brand brand-footer" href="#home"><span class="brand-mark">UH</span><span>Umar Hussain</span></a>
+        <p>Designed around curiosity, evidence and continuous improvement.</p>
+        <p>© <span data-year></span> Umar Hussain</p>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" data-project-dialog aria-labelledby="dialog-title">
+      <div class="dialog-shell">
+        <button class="dialog-close" type="button" data-dialog-close aria-label="Close project details">×</button>
+        <div class="dialog-hero">
+          <img data-dialog-cover src="" alt="" />
+          <div class="dialog-hero-shade" aria-hidden="true"></div>
+          <div class="dialog-hero-copy">
+            <p class="eyebrow" data-dialog-kicker></p>
+            <h2 id="dialog-title" data-dialog-title></h2>
+            <p data-dialog-summary></p>
+          </div>
+        </div>
+        <div class="dialog-body">
+          <aside class="dialog-aside">
+            <div><span>Status</span><strong data-dialog-status></strong></div>
+            <div><span>Period</span><strong data-dialog-period></strong></div>
+            <div><span>Focus</span><strong data-dialog-focus></strong></div>
+            <div class="dialog-links" data-dialog-links></div>
+          </aside>
+          <div class="dialog-content">
+            <section>
+              <p class="eyebrow">The story</p>
+              <p class="dialog-lead" data-dialog-story></p>
+            </section>
+            <section data-dialog-video-section hidden>
+              <div class="dialog-section-heading">
+                <div><p class="eyebrow">Project demo</p><h3>See it in action</h3></div>
+                <span>Use the controls to play with sound</span>
+              </div>
+              <video data-dialog-video controls playsinline preload="metadata"></video>
+            </section>
+            <section>
+              <p class="eyebrow">What I worked on</p>
+              <ul class="dialog-points" data-dialog-points></ul>
+            </section>
+            <section data-dialog-visual-link-section hidden>
+              <div class="dialog-section-heading">
+                <div><p class="eyebrow">Live website</p><h3>Explore WebHub</h3></div>
+                <span>Select the image to open the project</span>
+              </div>
+              <a class="dialog-visual-link" data-dialog-visual-link target="_blank" rel="noopener">
+                <img data-dialog-visual-link-image src="" alt="" loading="lazy" />
+                <span><strong data-dialog-visual-link-label></strong><i aria-hidden="true">↗</i></span>
+              </a>
+            </section>
+            <section data-dialog-gallery-section>
+              <div class="dialog-section-heading">
+                <div><p class="eyebrow">Gallery</p><h3>Behind the project</h3></div>
+              </div>
+              <div class="dialog-gallery" data-dialog-gallery></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
